@@ -1,5 +1,5 @@
 è necessario aver installato i software : https://www.youtube.com/watch?v=Lc2WH8Yv5pc <-- prova questo
 ---------------------------
 1) I file e le cartelle presenti nella cartella html vanno inseriti nel proprio sistema in '/var/www/html'.
-2) I file 'index.html' 'info.php' 'mysqltest.php' presenti nella cartella 'html/' sono file di test Utili per vedere se il software riesce a 
-  connettersi correttamente al phpMyadmin
+2) I file 'index.html' 'info.php' 'mysqltest.php' presenti nella cartella 'html/' sono file di test Utili 
+  a vedere se il software riesce ad effettuare la connessione correttamente al phpMyadmin
