@@ -16,12 +16,14 @@
         }
         else{
             echo "Connection OK\n\n";
-            $query = "INSERT INTO users(Nome, Cognome, Password) values ('$name', '$surname', '$pass')";
+            $query = "INSERT INTO users(Nome, Cognome, password) values ('$name', '$surname', '$pass')";
             if($conn->query($query)){
                 echo "Succeffully added!";
             }
-            else
+            else {
+                echo "else";
                 echo "Error:".$query."<br>".$conn->error;
+            }
             $conn->close();
         }
     }
